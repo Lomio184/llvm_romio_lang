@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RealRomio"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\Boost-1.74.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_headers-1.74.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hazard/CLionProjects/RealRomio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/hazard/CLionProjects/RealRomio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hazard/CLionProjects/RealRomio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RealRomio">
+				<Option output="/Users/hazard/CLionProjects/RealRomio/RealRomio" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hazard/CLionProjects/RealRomio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add directory="/Users/hazard/CLANG_API/include"/>
+					<Add directory="/usr/local/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 RealRomio"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RealRomio/fast">
+				<Option output="/Users/hazard/CLionProjects/RealRomio/RealRomio" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hazard/CLionProjects/RealRomio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add directory="/Users/hazard/CLANG_API/include"/>
+					<Add directory="/usr/local/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 RealRomio/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/hazard/CLionProjects/RealRomio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hazard/CLionProjects/RealRomio/main.cpp">
+			<Option target="RealRomio"/>
+		</Unit>
+		<Unit filename="/Users/hazard/CLionProjects/RealRomio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/hazard/CLionProjects/RealRomio/../../../../usr/local/lib/cmake/BoostDetectToolset-1.74.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/hazard/CLionProjects/RealRomio/../../../../usr/local/lib/cmake/Boost-1.74.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Boost-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/hazard/CLionProjects/RealRomio/../../../../usr/local/lib/cmake/Boost-1.74.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Boost-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/hazard/CLionProjects/RealRomio/../../../../usr/local/lib/cmake/boost_headers-1.74.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_headers-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/hazard/CLionProjects/RealRomio/../../../../usr/local/lib/cmake/boost_headers-1.74.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_headers-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/hazard/CLionProjects/RealRomio/../../../../usr/local/lib/cmake/boost_filesystem-1.74.0/boost_filesystem-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/hazard/CLionProjects/RealRomio/../../../../usr/local/lib/cmake/boost_filesystem-1.74.0/boost_filesystem-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/hazard/CLionProjects/RealRomio/../../../../usr/local/lib/cmake/boost_filesystem-1.74.0/libboost_filesystem-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/hazard/CLionProjects/RealRomio/../../../../usr/local/lib/cmake/boost_filesystem-1.74.0/libboost_filesystem-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

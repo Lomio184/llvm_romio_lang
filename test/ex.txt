@@ -1,0 +1,11 @@
+a = 1
+b = 2
+func add(a,b)
+    return a + b
+end
+
+if (a > b)
+    print(a)
+else
+    print(b)
+end
